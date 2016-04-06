@@ -1,7 +1,7 @@
 
 
 # npm debugging logs
-npm-debug.log*
+*.log
 
 # project dependencies
 node_modules
@@ -12,3 +12,6 @@ node_modules
 # temporary files
 *.tmp
 *~
+
+* dist
+* public/dist
